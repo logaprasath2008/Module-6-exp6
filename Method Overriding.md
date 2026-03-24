@@ -1,4 +1,5 @@
-# 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
+# PYTHON MODULE - 6
+# (C) 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
 
 ## 🧠 AIM:
 To write a Python program that demonstrates class inheritance by creating a parent class `Fish` with a method `type`, and a child class `Shark` that overrides the `type` method.
@@ -15,6 +16,22 @@ To write a Python program that demonstrates class inheritance by creating a pare
 
 ## 💻 PROGRAM:
 
-## OUTPUT
+    class Fish:
+        def type(self):
+            print("\nfish")
+    class Shark(Fish):
+        def type(self):
+            print("\nshark")
+    obj_goldfish = Fish()
+    obj_hammerhead = Shark()
+    for i in (obj_goldfish,obj_hammerhead):
+        i.type()
 
-## RESULT
+## OUTPUT:
+
+<img width="400" height="277" alt="image" src="https://github.com/user-attachments/assets/f5818a87-19c3-497a-a8ef-790d5204ed0a" />
+
+
+## RESULT:
+
+Thus, The Python program that demonstrates class inheritance by creating a parent class `Fish` with a method `type`, and a child class `Shark` that overrides the `type` method was executed successfully.
